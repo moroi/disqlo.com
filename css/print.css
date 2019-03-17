@@ -1,0 +1,188 @@
+@charset "utf-8";
+
+body,
+input,
+textarea {
+  color: #000;
+  font-size: 2.06vw;
+  line-height: 2.56vh;
+  font-family: "Noto Serif JP", serif;
+}
+
+.toggle:checked + .select {
+  display: block;
+}
+
+.input__set {
+  display: none;
+}
+
+.input__choice {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.order07 .input__choice::after {
+  content: " の規定により、次のとおり文書の公開を請求します。";
+}
+
+.order08 .input__textarea {
+  display: block;
+  height: 14rem;
+  border-radius: 0;
+}
+
+.order08 .input__textarea,
+.order09 .input__choice {
+  position: relative;
+  padding: .8rem 1rem .8rem calc(28% + 1rem);
+  border: 1px solid #000;
+}
+
+.order09 .input__choice {
+  border-top-width: 0;
+}
+
+.order08 .input__content::before,
+.order09 .input__choice::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 28%;
+  padding: .8rem 1rem;
+  border-right: 1px solid #000;
+}
+
+.order08 .input__content::before {
+  content: "公開請求に係る文書の件名又は内容";
+}
+
+.order09 .input__choice::before {
+  content: "求める公開の方法";
+}
+
+.header {
+  display: none;
+}
+
+.title {
+  display: none;
+}
+
+.container {
+  padding: 0;
+}
+
+.container__inner {
+  display: flex;
+  position: static;
+  flex-direction: column;
+  max-width: initial;
+  padding: 10.8% 8.6% 0 10.8%;
+  box-shadow: none;
+}
+
+.input {
+  margin-bottom: 0;
+}
+
+.input__title {
+  display: none;
+}
+
+.input__text,
+.input__textarea {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 0;
+  border-width: 0;
+  background: transparent;
+  resize: none;
+  appearance: none;
+}
+
+.button {
+  display: none;
+}
+
+.order01 {
+  order: 1;
+}
+
+.order02 {
+  order: 2;
+}
+
+.order03 {
+  order: 3;
+}
+
+.order04 {
+  order: 4;
+}
+
+.order05 {
+  order: 5;
+}
+
+.order01 .input__text,
+.order03 .input__text,
+.order04 .input__text,
+.order05 .input__text {
+  text-align: right;
+}
+
+.order06 {
+  display: block;
+  order: 6;
+  margin: 2rem 0;
+  font-size: 3.2vw;
+  line-height: 1;
+  text-align: center;
+}
+
+.order07 {
+  order: 7;
+  text-indent: 1em;
+}
+
+.order08 {
+  order: 8;
+}
+
+.order09 {
+  order: 9;
+  margin-bottom: 1rem;
+}
+
+.print__notes {
+  display: block;
+  order: 10;
+  border: 1px solid #000;
+}
+
+.print__notes_title {
+  position: relative;
+  height: 5rem;
+  padding: .8rem 1rem;
+}
+
+.print__notes_title::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 28%;
+  border-right: 1px solid #000;
+  content: "";
+}
+
+.print__notes_title:first-child {
+  border-bottom: 1px solid #000;
+}
+
+.notes {
+  display: none;
+}
