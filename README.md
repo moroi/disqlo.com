@@ -1,13 +1,11 @@
-# Disqlo.com
+# Disqlo
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/b2f13d47-c1f3-4155-804e-80435dce6f13/deploy-status)](https://app.netlify.com/sites/disqlo/deploys)
+[![Disqlo](https://disqlo.doocts.com/ogp.png)](https://disqlo.doocts.com)
 
 ## Website
 
-[![Disqlo](https://disqlo.com/ogp.png)](https://disqlo.com)
-
-[https://disqlo.com](https://disqlo.com)
+[https://disqlo.doocts.com](https://disqlo.doocts.com)
 
 ## Documentation
 
-- [Guide](https://github.com/moroi/disqlo.com/blob/master/docs/guide.md)
+- [Guide](https://github.com/moroi/disqlo.doocts.com/blob/master/docs/guide.md)
